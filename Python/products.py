@@ -3,7 +3,7 @@ import os
 from flask import Flask, jsonify
 
 app= Flask(__name__)
-port = int(os.environ.get('PORT', 5000))
+port = int(os.environ.get('PORT', 6000))
 
 @app.route("/")
 def home():
